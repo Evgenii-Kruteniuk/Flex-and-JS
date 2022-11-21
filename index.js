@@ -152,3 +152,19 @@ console.log(func([5, 7, 1, 33, 0, 17, 9, -4, 8]));*/
 }
 
 console.log(func([5, 7, 1, 33, 0, 17, 9, -4, 8]));*/
+
+//***** Привязка контекста с помощью ключевого слова bind
+ 
+/*let unit = {
+  age: 37,
+  name: "Евгений",
+  surname: "Крутенюк",
+  person() {
+    console.log(`Всем привет, меня зовут ${this.name} и мне ${this.age}`);
+  },
+};
+unit.person();
+
+let asd = unit.person.bind(unit);
+
+setTimeout(asd, 2000);*/
